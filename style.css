@@ -145,3 +145,54 @@ input[name="r"] {
 
 /*******************Section Centre actualité**********************/ 
 
+section {
+    width: 100%;
+}
+
+.welcome-msg {
+    background-color: #ffffffcf;
+    text-align: center;
+    margin: auto;
+    width: 740px;
+    margin-top: 50px;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.actu-container {
+    background-color: #ffffffcf;
+    /* margin-top: 70px; */
+    width: 90%;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 66px;
+}
+
+.actu-container h2 {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.actu-box {
+    width: 70%;
+    height: 340px;
+    box-shadow: 0px 1px 5px 0px;
+    margin-top: 70px;
+}
+
+.subject-box {
+    background-color: aqua;
+    height: 160px;
+}
+
+.img-box {
+    width: 280px;
+    height: 147px;
+    border-style: solid;
+}
+
+
+
+
+
