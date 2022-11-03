@@ -359,3 +359,32 @@ footer a {
     /*color: rgb(227 206 12 / 86%);*/
     color: #f1f3d8;
 }
+
+
+/******************page je_jeu.html************************/
+
+#myVideo {
+    /*position: fixed;*/
+    position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    
+  }
+  
+  .content {
+    /*position: fixed;*/
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    /*height: 860px;*/
+    height: 116vh;
+  }
+
+  .background-video {
+    position: relative;
+  }
