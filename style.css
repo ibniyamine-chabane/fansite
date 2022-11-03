@@ -10,6 +10,37 @@
     font-family: genshin;
 }
 
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    border-radius: 20px;
+    background: rgb(10, 10, 10);        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #F3DEB7;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid rgb(6, 6, 6);  /* creates padding around scroll thumb */
+  }
+
+ /**********************scroll pour les div *********************/ 
+
+  div::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  div::-webkit-scrollbar-track {
+    background: rgb(10, 10, 10);  
+    border-radius: 20px;      /* color of the tracking area */
+  }
+  
+  div::-webkit-scrollbar-thumb {
+    background-color: #F3DEB7;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid rgb(6, 6, 6);  /* creates padding around scroll thumb */
+  }
 /*******************Header***********************************/
 
 .banniere-header {
@@ -26,6 +57,7 @@ nav {
     height: 50px;
     /*background-color: blue;*/
     box-shadow: 0px 1px 5px 0px;
+    background-color: #d8de8f59;
 }
 
 nav div {
@@ -55,11 +87,20 @@ nav a:hover {
 }
 
 /****************************main***************************/
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+
 
 main { 
     background-image: url("https://whatifgaming.com/wp-content/uploads/2021/11/Wyrd-Art-1392x783.jpg");
     /*background-repeat: no-repeat;*/
     background-size: contain ;
+    
 }
 /********************section slide css *********************/
 
@@ -247,36 +288,41 @@ section {
 footer {
     width: 100%;
     height: 300px;
-    background-color: beige;
+    /*background-color: beige;*/
+    background-image: url("https://images.hdqwalls.com/wallpapers/xiao-genshin-impact-wv.jpg");
 }
 
 .container-footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 30px;
+    height: 281px;
 }
 
 .box-footer-content {
     width: 440px;
     height: 216px;
-    background-color: red;
+    /*background-color: red;*/
     /*margin-top: 20px;*/
 }
 
 .footer-img-box {
     width: 84%;
     height: 145px;
-    border: solid;
+    /*border: solid;*/
     margin: auto;
 }
 
+i {
+    color: rgb(255, 255, 255);
+}
 
 .box-footer-content i {
     padding-left: 15px;
 }
 
 .box-social-media {
-    border: solid;
+    /*border: solid;*/
     /*padding-top: 2px;*/
     margin: auto;
     margin-top: 10px;
@@ -288,3 +334,28 @@ footer {
     list-style-type: none;
 }
 
+footer ul {
+    list-style-type: none;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.website-msg {
+    width: 100%;
+    height: 36px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 8px;
+}
+
+.space-top-li li{
+    padding-top: 12px;
+}
+
+.space-top-li a {
+    /*color: rgb(227 206 12 / 86%);*/
+    color: #f1f3d8;
+}
