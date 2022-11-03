@@ -361,7 +361,7 @@ footer a {
 }
 
 
-/******************page je_jeu.html************************/
+/******************Genshin_impact.html************************/
 
 #myVideo {
     /*position: fixed;*/
@@ -388,3 +388,11 @@ footer a {
   .background-video {
     position: relative;
   }
+
+
+/*******************personnages.html************************/
+
+.background-perso {
+    background-image: url("https://sirus.b-cdn.net/wp-content/uploads/2021/11/genshin-impact-all-characters-1024x576.jpg");
+    position: fixed;
+}
