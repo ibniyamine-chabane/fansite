@@ -393,6 +393,53 @@ footer a {
 /*******************personnages.html************************/
 
 .background-perso {
-    background-image: url("https://sirus.b-cdn.net/wp-content/uploads/2021/11/genshin-impact-all-characters-1024x576.jpg");
-    position: fixed;
+    /*position: fixed;*/
+    background-image: url(https://sirus.b-cdn.net/wp-content/uploads/2021/11/genshin-impact-all-characters-1024x576.jpg);
+   
+    background-repeat: repeat-y;
+    background-size: contain;
+    padding-top: 1px;
+
+}
+
+.character-mini-img-box {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin: 0 7.5px;
+}
+
+.character {
+    margin: 7.5px;
+    height: 80px;
+    padding: 2px;
+    border-radius: 10px;
+    align-items: center;
+    border-style: solid;
+    display: flex;
+}
+
+.avatar {
+    width: 70px;
+    cursor: pointer;
+    background: url(https://www.genshin-impact.fr/wp-content/uploads/2022/01/homepage_chalk.jpg);
+    border-radius: 6px;
+}
+
+.character-name {
+    margin: auto;
+}
+
+#container-character {
+    background-color: #ffffffcf;
+    width: 90%;
+    border-radius: 4px;
+    margin: auto;
+    padding-bottom: 20px;
+    margin-top: 105px;
+}
+
+#container-character h1 {
+    text-align: center;
+    padding: 35px;
 }
