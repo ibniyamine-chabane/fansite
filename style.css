@@ -406,7 +406,7 @@ footer a {
     width: 90%;
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    margin: 0 7.5px;
+    margin: auto;
 }
 
 .character {
@@ -417,6 +417,7 @@ footer a {
     align-items: center;
     border-style: solid;
     display: flex;
+    background-color: #e2b571;
 }
 
 .avatar {
