@@ -409,6 +409,10 @@ footer a {
     margin: auto;
 }
 
+.character-mini-img-box a {
+    text-decoration: none;
+}
+
 .character {
     margin: 7.5px;
     height: 80px;
@@ -443,4 +447,41 @@ footer a {
 #container-character h1 {
     text-align: center;
     padding: 35px;
+}
+
+.character-box {
+    width: 95%;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.character-box img {
+    margin: auto;
+}
+
+.character-box h2 {
+    padding: 25px;
+}
+
+.container-detail {
+    width: 75%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 41px;
+    margin-bottom: 50px;
+    border-radius: 18px;
+    border: solid;
+    padding: 20px;
+    box-shadow: 2px 4px 11px 1px #2c4067;
+}
+
+.text-detail {
+    width: 70%;
+}
+
+.vision-box {
+    width: 270px;
+    height: 177px;
 }
