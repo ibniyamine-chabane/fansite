@@ -97,10 +97,10 @@ nav a:hover {
 
 
 main { 
-    background-image: url("https://whatifgaming.com/wp-content/uploads/2021/11/Wyrd-Art-1392x783.jpg");
-    /*background-repeat: no-repeat;*/
-    background-size: contain ;
-    
+    background-image: url(https://whatifgaming.com/wp-content/uploads/2021/11/Wyrd-Art-1392x783.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 /********************section slide css *********************/
 
@@ -246,6 +246,10 @@ section {
     margin: auto;
     justify-content: space-around;
     margin-top: 19px;
+}
+
+.overflow {
+    overflow: auto;
 }
 
 .img-box {
@@ -396,8 +400,8 @@ footer a {
     /*position: fixed;*/
     background-image: url(https://sirus.b-cdn.net/wp-content/uploads/2021/11/genshin-impact-all-characters-1024x576.jpg);
    
-    background-repeat: repeat-y;
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 1px;
 
 }
@@ -484,4 +488,13 @@ footer a {
 .vision-box {
     width: 270px;
     height: 177px;
+}
+
+/*****************contact.html***************************/
+
+.background-perso-paimon {
+    background-image: url("https://top-mmo.fr/wp-content/uploads/2022/09/paimon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 1px;
 }
