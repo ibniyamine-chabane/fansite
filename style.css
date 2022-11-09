@@ -377,7 +377,7 @@ footer a {
     
   }
   
-  .content {
+.content {
     /*position: fixed;*/
     position: absolute;
     bottom: 0;
@@ -387,12 +387,61 @@ footer a {
     padding: 20px;
     /*height: 860px;*/
     height: 116vh;
-  }
+    overflow: auto;
+}
 
-  .background-video {
+.background-video {
     position: relative;
-  }
+}
 
+.content img {
+    width: 400px;
+    display: block;
+    margin: auto;
+    padding-top: 55px;
+}
+
+.synopsis {
+    width: 45%;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.container-images {
+    width: 83%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.details-generale {
+    width: 64%;
+    margin: auto;
+    padding-top: 80px;
+}
+
+.container-plateforme {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.container-plateforme h2 {
+    padding-bottom: 22px;
+}
+
+.box-logo-plateforme {
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.box-logo-plateforme img {
+    width: 200px;
+    padding-top: 2px;
+}
 
 /*******************personnages.html************************/
 
@@ -489,6 +538,8 @@ footer a {
     width: 270px;
     height: 177px;
 }
+
+
 
 /*****************contact.html***************************/
 
