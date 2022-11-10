@@ -405,6 +405,7 @@ footer a {
     width: 45%;
     margin: auto;
     padding-top: 100px;
+    text-align: justify;
 }
 
 .container-images {
@@ -418,6 +419,7 @@ footer a {
     width: 64%;
     margin: auto;
     padding-top: 80px;
+    text-align: justify;
 }
 
 .container-plateforme {
@@ -602,7 +604,9 @@ input[type=submit]:hover {
     margin:0 auto;
 }
 
-h1 {
+.container-form h1 {
     color: #ffc800;
     width: 100%;
+    padding: 34px 0px;
+    text-align: center;
 }
