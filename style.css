@@ -8,6 +8,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: genshin;
+    scroll-behavior: smooth;
 }
 
 body::-webkit-scrollbar {
@@ -189,6 +190,7 @@ input[name="r"] {
 section {
     width: 100%;
     padding-bottom: 20px;
+    padding-top: 1px;
 }
 
 .welcome-msg {
@@ -541,6 +543,30 @@ footer a {
     height: 177px;
 }
 
+/********************photos.html*************************/
+
+.container-photo {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 20px 25px;
+}
+
+.cadre-img {
+    width: 300px;
+    height: 200px;
+    margin: 15px;
+}
+
+.cadre-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.center {
+    text-align: center;
+    padding: 43px 0px;
+}
 
 
 /*****************contact.html***************************/
